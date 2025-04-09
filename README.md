@@ -1,2 +1,2 @@
 # spam_classifier
-Email Spam Classifier
+Spam Classifier
