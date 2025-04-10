@@ -5,9 +5,13 @@ name = "pypi"
 
 [packages]
 django = "*"
+scikit-learn = "*"
+pandas = "*"
+joblib = "*"
 
 [dev-packages]
 jupyter = "*"
+notebook = "*"
 
 [requires]
 python_version = "3.11"
