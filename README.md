@@ -24,7 +24,11 @@ A web-based email spam detection system built with **Django** and powered by **M
 
 ---
 
-[![Live](https://img.shields.io/badge/Live%20Demo-Online-green?style=flat-square&logo=python)](https://detectspam.pythonanywhere.com/)
+## 🚀 Live Demo
+
+Check out the live version of this project here:  
+👉 [detectspam.pythonanywhere.com](https://detectspam.pythonanywhere.com/)
+
 
 ---
 
