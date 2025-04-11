@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}About | Spam Detector{% endblock %}
+
+{% block content %}
+<div class="text-center mb-5">
+    <h2>About This Project</h2>
+    <p class="mt-3 text-muted">This project is an Email Spam Classifier built using Django and Machine Learning (Naive Bayes).</p>
+    <p class="text-muted">It analyzes email content to detect whether it's spam or safe, using TF-IDF vectorization and a trained classifier model.</p>
+</div>
+
+<div class="row justify-content-center">
+    <!-- Contributor 1 -->
+    <div class="col-md-5 mb-4">
+        <div class="card shadow-sm rounded-4">
+            <div class="card-body text-center">
+                <h5 class="card-title">Rabin Shrestha</h5>
+                <p class="card-text text-muted">B.Sc CSIT, ASCOL - Tribhuvan University</p>
+                <p class="mb-1">
+                    <a href="mailto:rabinshrestha9998@gmail.co" class="text-decoration-none">📧 Email Rabin</a>
+                </p>
+                <p>
+                    <a href="https://github.com/itsrawbin" target="_blank" class="btn btn-outline-dark btn-sm">GitHub Profile</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contributor 2 -->
+    <div class="col-md-5 mb-4">
+        <div class="card shadow-sm rounded-4">
+            <div class="card-body text-center">
+                <h5 class="card-title">Sarad Thapa</h5>
+                <p class="card-text text-muted">B.Sc CSIT, ASCOL - Tribhuvan University</p>
+                <p class="mb-1">
+                    <a href="mailto:thapasarad87@gmail.com" class="text-decoration-none">📧 Email Sarad</a>
+                </p>
+                <p>
+                    <a href="https://github.com/saradjung" target="_blank" class="btn btn-outline-dark btn-sm">GitHub Profile</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center mt-4 text-muted small">
+    <p>Built with ❤️ by Rabin & Sarad — B.Sc CSIT students.</p>
+</div>
+{% endblock %}
