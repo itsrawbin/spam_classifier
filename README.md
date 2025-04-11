@@ -23,6 +23,11 @@ A web-based email spam detection system built with **Django** and powered by **M
 - **Deployment:** Localhost / future-ready for Heroku or Render
 
 ---
+
+[![Live](https://img.shields.io/badge/Live%20Demo-Online-green?style=flat-square&logo=python)](https://detectspam.pythonanywhere.com/)
+
+---
+
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
